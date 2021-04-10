@@ -1,0 +1,121 @@
+* {
+  font: arial, sans-serif;
+  font-size: 1rem;
+}
+.btn1 {
+  float: right;
+  text-decoration: none;
+  color: #222;
+}
+header {
+  text-indent: 20px;
+  margin-right: 2rem;
+  height: 48px;
+  margin-top: 1rem;
+}
+
+.image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#googl {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80vh;
+  margin-top: 0.1rem;
+  padding: 0.8rem;
+  border-radius: 3rem;
+  background: #fff;
+  display: flex;
+  border: 1px solid #dfe1e5;
+  box-shadow: none;
+  background: url(searchicon.webp) left no-repeat,
+    url(microphone.png) right no-repeat;
+
+  background-size: 1.1rem;
+}
+#google:hover {
+  background-color: #fff;
+  box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+  border-color: rgba(223, 225, 229, 0);
+}
+#google:active {
+  outline: none;
+}
+.micro {
+  margin-left: 56rem;
+  margin-top: -3rem;
+}
+#btn2 {
+  border: 1px solid transparent;
+  cursor: pointer;
+  text-decoration: none;
+  border-radius: 0.2rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-bottom: 0.5rem;
+  padding-top: 0.5rem;
+  background: #1a73e8;
+  border: 1px solid transparent;
+  color: white;
+  margin-left: 1rem;
+}
+
+#content {
+  margin-left: 33rem;
+  padding: 20px;
+}
+#content1 {
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  color: #3c4043;
+  font-family: arial, sans-serif;
+  padding: 0.2rem;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  margin-top: 15.2rem;
+  width: 100%;
+  border-bottom: 1px solid #dadce0;
+  font-size: 15px;
+  background-color: #f2f2f2;
+  padding-left: 4.5rem;
+}
+.footer p {
+  color: rgba(0, 0, 0, 0.54);
+}
+.mainfooter ul {
+  position: fixed;
+  background-color: #f2f2f2;
+  list-style-type: none;
+  margin-left: 0px;
+  margin-right: 0px;
+  width: 100%;
+  margin-top: 18.48rem;
+}
+.mainfooter li {
+  display: inline-block;
+  padding: 0.9rem;
+  color: rgba(0, 0, 0, 0.54);
+}
+.flo {
+  margin-right: 3rem;
+  float: right;
+}
+.flo1 {
+  float: left;
+}
+.center {
+  margin-left: 7.5rem;
+}
+#cen {
+  margin-left: 30rem;
+}
+
+a {
+  text-decoration: none !important;
+}
